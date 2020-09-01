@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col w-full md:w-2/3 mt-6 px-4 md:pr-16">
+      <div class="flex flex-col w-full md:w-2/3 my-6 px-4 md:pr-16">
         <div class="flex justify-center md:justify-start">
           <ul class='flex cursor-pointer'>
             <li class='mr-2 py-1 px-4 hover:bg-gray-200 rounded-lg'>Présentation</li>
@@ -32,7 +32,7 @@
             (Si vous souhaitez en savoir un peu plus, je vous invite à consulter <b>mon CV</b>)
           </p>
           <p class="pt-6">
-            Ma principale qualité est que je suis à l'écoute des besoins clients, 
+            Ma principale qualité est d'être à l'écoute des besoins du client, 
             mon objectif dans tout projet est d'apporter mon expertise en terme d'<b>UI</b> et 
             d'<b>ergonomie</b> pour mieux répondre aux attentes de l'utilisateur final.
           </p>
