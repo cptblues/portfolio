@@ -1,0 +1,17 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.0.2",
+    "nuxt-purgecss": "^1.0.0",
+    "nuxt-webfontloader": "^1.1.0"
+  }
+}
