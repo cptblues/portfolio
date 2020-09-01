@@ -1,9 +1,9 @@
 <template>
   <section class="w-full font-display border-t-2 border-blue-600 pt-16">
 
-    <div class="flex flex-row">
+    <div class="flex flex-col md:flex-row">
 
-      <div class="flex flex-col w-1/3 px-4 items-center">
+      <div class="flex flex-col w-full md:w-1/3 px-4 items-center">
         <div class="h-48 w-48">
           <img class="rounded-full" src="../assets/images/profil.jpg" alt="Kévin Poulet">
         </div>
@@ -13,15 +13,15 @@
         </div>
       </div>
 
-      <div class="flex flex-col w-2/3 mt-6 px-4 pr-16">
-        <div class="flex justify-left">
+      <div class="flex flex-col w-full md:w-2/3 mt-6 px-4 md:pr-16">
+        <div class="flex justify-center md:justify-start">
           <ul class='flex cursor-pointer'>
             <li class='mr-2 py-1 px-4 hover:bg-gray-200 rounded-lg'>Présentation</li>
             <li class='mx-2 py-1 px-4 bg-gray-100 rounded-lg hover:bg-gray-200 text-gray-500'>Publications</li>
             <li class='ml-2 py-1 px-4 bg-gray-100 rounded-lg hover:bg-gray-200 text-gray-500'>WIP</li>
           </ul>
         </div>
-        <div class="flex flex-col justify-left mt-6">
+        <div class="flex flex-col justify-center md:justify-left mt-6 text-justify">
           <p>
             Je m'appelle <b>Kévin Poulet</b> et je suis développeur d'applications
              Web & Mobile (<i>Angular</i> / <i>Ionic</i> / <i>.Net Core</i> / <i>Laravel</i>).
