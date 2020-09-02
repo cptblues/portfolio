@@ -36,12 +36,25 @@ export default {
       '~assets/styles/tailwind.css', 
   ],
 
+  plugins: [
+    { src: '~/plugins/vue-pdf.js', ssr: false },
+  ],
+
   build: {
+      extend(config, ctx) {
+        config.output.globalObject = 'this'
+        config.module.rules.push(
+          {
+            test: /\.pdf$/,
+            loader: 'url-loader'
+          }
+        )
+      },
       postcss: {
         plugins: {
           'postcss-import': {},
           tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
-          'postcss-nested': {}
+          'postcss-nested': {},
         }
       },
       preset: {

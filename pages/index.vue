@@ -29,7 +29,12 @@
           <p class="pt-6">
             Je suis actuellement en poste chez <b>Inside Group</b> où je travaille sur 
             des projets pour différents clients. 
-            (Si vous souhaitez en savoir un peu plus, je vous invite à consulter <b>mon CV</b>)
+            (Si vous souhaitez en savoir un peu plus, je vous invite à consulter 
+            <b>
+             <a class="text-blue-600 underline" href="/cv" target="_blank">
+              mon CV
+             </a>
+            </b>)
           </p>
           <p class="pt-6">
             Ma principale qualité est d'être à l'écoute des besoins du client, 
@@ -48,7 +53,6 @@
           </p>
           </div>
       </div>
-
     </div>
 
   </section>
