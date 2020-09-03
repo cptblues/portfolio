@@ -43,7 +43,7 @@
           </p>
           <p class="pt-6">
             En dehors de mon travail, j'aime apprendre et essayer différentes choses comme le dessin,
-            la photographie, la sculpture, le jardinnage etc... Je suis quelqu'un d'<b>ouvert d'esprit</b>
+            la photographie, la sculpture, le jardinage etc... Je suis quelqu'un d'<b>ouvert d'esprit</b>
             et cela m'aide dans mon activité professionnelle.
           </p>
           <p class="pt-6">
