@@ -31,7 +31,7 @@
             des projets pour différents clients. 
             (Si vous souhaitez en savoir un peu plus, je vous invite à consulter 
             <b>
-             <a class="text-blue-600 underline" href="/cv" target="_blank">
+             <a class="text-blue-600 underline" href="CV_Kevin_Poulet.pdf" target="_blank">
               mon CV
              </a>
             </b>)

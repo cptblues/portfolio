@@ -37,19 +37,10 @@ export default {
   ],
 
   plugins: [
-    { src: '~/plugins/vue-pdf.js', ssr: false },
+    // empty
   ],
 
   build: {
-      extend(config, ctx) {
-        config.output.globalObject = 'this'
-        config.module.rules.push(
-          {
-            test: /\.pdf$/,
-            loader: 'url-loader'
-          }
-        )
-      },
       postcss: {
         plugins: {
           'postcss-import': {},
